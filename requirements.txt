@@ -1,0 +1,10 @@
+slack_sdk>=3.0
+slack_bolt>=1.6.1
+certifi
+statuscake-py
+flask
+# to workaround the broken dateutil bug:
+# https://github.com/StatusCakeDev/statuscake-py/issues/18
+python-dateutil>=2.8.2
+PyGithub
+google-analytics-data
